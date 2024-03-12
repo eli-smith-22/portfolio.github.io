@@ -1,0 +1,338 @@
+#container{
+    background-color: rgb(255, 226, 234);
+    /*background-image: url(web_art/bg_img.png);*/
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+   
+}
+
+#header{
+    width: 90%;
+    height: 150px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(255, 144, 192);
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom:auto;
+    padding-right: 20px;
+    align-items: center;
+    background-color: aliceblue;
+    background-image: url(web_art/plaid.png);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:100px;
+    text-align: center;
+    color: rgb(255, 226, 234);
+    text-shadow: 6px 5px 4px rgb(255, 144, 192);
+    -webkit-text-stroke:3px rgb(255, 255, 255)
+}
+/* grid starts here*/
+#container_2{
+    align-items:flex-start;
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px 1fr;
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+   
+    /*border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(255, 144, 192);*/
+    grid-gap: 5px;
+}
+
+#item-1{
+    border-width: 2px;
+    border-right-style: dashed;
+    border-left-style: dashed;
+    border-color: rgb(255, 144, 192);
+    background-color: aliceblue;
+    background-image: url(web_art/plaid_2.png);
+    grid-row: 1/4;
+    grid-column: 1/2;
+    width: auto;
+    height: 900px;
+    padding: 10px;
+ 
+    
+
+}
+#item-2{
+    border-width: 2px;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-color: rgb(255, 144, 192);
+    background-color: aliceblue;
+    background-image: url(web_art/plaid_3.png);
+    grid-row: 1/6;
+    grid-column: 2/4;
+    width: auto;
+    height: auto;
+    padding: 40px;
+}
+
+#item-3 {
+    border-width: 2px;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-color: rgb(255, 144, 192);
+    background-color: aliceblue;
+    background-image: url(web_art/plaid_2.png);
+    grid-row: 1/4;
+    grid-column: 4/5;
+    width: auto;
+    height: 900px;
+    
+}
+#body-header{
+    width:auto;
+    height: 100px;
+    grid-row: 1/2;
+    grid-column: 2/4;
+    background-color: rgb(255, 226, 234);
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 2px rgb(255, 144, 192);
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    border-width: 15px;
+    border-radius: 20px;
+    border-spacing: 5px;
+}
+
+#text-page{
+    height: auto;
+    width:auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.textbox-1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: rgb(124, 93, 93);
+    margin:10px
+   
+
+}
+.indent{
+    text-indent: 5%;
+}
+#intext-image-right{
+    float:right;
+    max-height: 400px;
+    max-width: 500px;
+    margin:10px;
+   
+}
+#intext-image{
+    max-height: 300px;
+    max-width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#intext-image-bottom{
+    float:initial;
+    position: relative;
+    align-content: center;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+   
+}
+.button-div{
+    background-color: aliceblue;
+    height: 200px;
+    width: 150px;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10%;
+   align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    transition-duration: .4s;
+    border-color: white;
+    border-width: 5px;
+    font-size: larger;
+    color: rgb(255, 0, 230);
+    font-weight: bold;
+   
+}
+
+
+
+
+.button{
+    background-color: rgb(255, 144, 192);
+    background-image: url(heart-icon.png);
+    height: 200px;
+    width: 150px;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10%;
+   align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    text-shadow: 3px 3px rgb(255, 255, 255);
+    transition-duration: .4s;
+    border-color: white;
+    border-width: 5px;
+    font-size: larger;
+    color:rgb(154, 85, 85);
+    font-weight: bolder;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    
+   
+   
+}
+.button:hover {
+    background-image:url(heart-icon.png);
+    color: rgb(255, 166, 0);
+    opacity: 50%;
+  }
+
+#button-1{
+grid-row: 1/2;
+grid-column: 1/2;
+    
+
+}
+#button-2{
+   grid-column: 1/2;
+   grid-row: 2/3
+
+}
+
+#button-3{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    
+}
+
+#button-4{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+#button-5{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+#button-6{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+/* Portfolio page styling*/
+.portfolio-container{
+    height: 1600;
+    width:auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+}
+
+.portfolio-cover{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 226, 234);
+    margin: 10px;
+    padding: 20px;
+    padding-right: 26px;
+
+}
+.portfolio-cover:hover{
+    background-color: #fffdcd;
+}
+
+.img-gallery-cover{
+    height: 250px;
+    width: 305px;
+    object-fit:cover;
+   text-align: center;
+   background-color: aliceblue;
+}
+
+
+
+.portfolio-cover-text{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: rgb(124, 93, 93);
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.img-gallery{
+    height: 150px;
+    width: auto;
+    object-fit:fill;
+   text-align: center;
+   background-color: aliceblue;
+   margin: 10px;
+}
+
+.portfolio-container-painting{
+    height: 1600;
+    width:auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.highlight:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
